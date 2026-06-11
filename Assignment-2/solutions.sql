@@ -1,11 +1,11 @@
 -- ================================================================================
--- Celebal Summer Internship 2026 
+-- Celebal Excellence Internship 2026 
 -- Week 2 Task: E-Commerce Sales & Superstore Sales Analysis
 -- File: solutions.sql
 -- ================================================================================
 
 -- ================================================================================
--- PART 1: E-COMMERCE SALES DATABASE (From CEI_SQL_Task2_Week2 (1).docx)
+-- PART 1: E-COMMERCE SALES DATABASE
 -- ================================================================================
 
 -- DDL: CREATE TABLES
@@ -61,7 +61,7 @@ CREATE INDEX IF NOT EXISTS idx_orders_status ON orders(status);
 
 -- DML: LOAD SAMPLE DATA (INSERT Statements)
 -- --------------------------------------------------------------------------------
--- Note: Replaced TRUE/FALSE with 1/0 for SQLite compatibility. Standard SQL supports both.
+-- Note: Replaced TRUE/FALSE with 1/0 for SQLite compatibility.
 INSERT OR IGNORE INTO customers VALUES
 (101, 'Aarav',  'Sharma', 'aarav.s@email.com',  'Mumbai',    'Maharashtra', '2024-01-15', 1),
 (102, 'Priya',  'Patel',  'priya.p@email.com',  'Ahmedabad', 'Gujarat',     '2024-02-20', 0),
