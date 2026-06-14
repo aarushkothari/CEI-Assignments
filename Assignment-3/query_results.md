@@ -8,7 +8,7 @@ This document contains the execution output of all SQL queries in `solutions.sql
 
 ## STEP 2: PERFORMING REQUIRED QUERIES
 
-### STEP 2: PERFORMING REQUIRED QUERIES Q1. Find all orders where sales are greater than the average sales. (Subquery)
+### Q1. Find all orders where sales are greater than the average sales. (Subquery)
 *Group and sum sales by order_id to get order totals, then filter for those above the average of all order totals.*
 
 ```sql
