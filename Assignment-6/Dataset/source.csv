@@ -1,0 +1,9 @@
+user_id,product_id,price,category,old_name,status,amount,base_price,region,priority
+1001,P01,120.50,Electronics,Phone,Completed,1500,100.00,North,High
+1002,P02,15.99,Books,Novel,Completed,500,15.00,South,Low
+1003,P03,299.99,Electronics,Tablet,Pending,1200,250.00,North,Medium
+1004,P04,45.00,Home,Lamp,Completed,1100,40.00,West,High
+,P05,89.99,Electronics,Headphones,Completed,80,75.00,East,Low
+1006,P06,1050.00,Electronics,Laptop,Completed,2200,1000.00,South,High
+1007,P07,5.50,Office,Pen,Cancelled,20,5.00,North,Low
+1008,P08,799.00,Electronics,TV,Completed,900,700.00,West,Medium
